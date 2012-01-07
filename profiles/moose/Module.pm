@@ -89,7 +89,7 @@ L<http://metacpan.org/module/{{$name}}>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2011 Pedro Figueiredo.
+Copyright 2012 Pedro Figueiredo.
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of either: the GNU General Public License as published
