@@ -1,0 +1,24 @@
+{{ ( $n = $dist->name ) =~ s/-/::/g; ''; }}
+#!/usr/bin/env perl
+
+use Dancer;
+use {{$n}};
+
+# ABSTRACT: the web application driver.
+
+dance;
+
+=head1 ACKNOWLEDGEMENTS
+
+
+=head1 LICENSE AND COPYRIGHT
+
+Copyright 2011 Pedro Figueiredo.
+
+This program is free software; you can redistribute it and/or modify it
+under the terms of either: the GNU General Public License as published
+by the Free Software Foundation; or the Artistic License.
+
+See http://dev.perl.org/licenses/ for more information.
+
+=cut
