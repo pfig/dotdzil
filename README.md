@@ -10,9 +10,8 @@ This is done in `config.ini`, and it merely lists the copyright owner and licens
 
 Templates and files to use for each type of distribution you which to create (e.g., webapp, application, library, etc).
 
-I currently have 2 profiles, one for non-Moose distributions (which will typically be applications), and another for libraries
-using Moose. I've split it like this so that I can have strictures and warnings in non-Moose distributions, and can add the usual
-Moose-related boilerplate in the Moose ones (and also turn off strictures and warnings checking in Critic, as Moose turns those on).
+I currently have 3 profiles, one for non-Moose distributions (which will typically be applications), another for libraries
+using Moose, and a third one for Dancer web apps.
 
 # Plugins
 
