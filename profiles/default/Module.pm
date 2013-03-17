@@ -7,16 +7,16 @@ package {{$name}};
 
 use 5.012;
 
+=head1 DESCRIPTION
+
+A brief description of what this code does, or a longer explanation.
+
 =head1 SYNOPSIS
-
-Quick summary of what the module does.
-
-Perhaps a little code snippet.
 
     use {{$name}};
 
     my $foo = {{$name}}->new();
-    ...
+    # ...
 
 =head1 EXPORT
 

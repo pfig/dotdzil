@@ -2,23 +2,24 @@ package {{$name}};
 
 use Moose 2.0401;
 use MooseX::Types 0.31;
-use namespace::clean -except => 'meta'
+use MooseX::StrictConstructor 0.19;
+use namespace::clean -except => 'meta';
 
 # ABSTRACT: This does what it does, and it does it well.
 {{ ( $n = $name ) =~ s/::/-/g; ''; }}
 
 use 5.012;
 
+=head1 DESCRIPTION
+
+Quick summary of what the module does, or perhaps a longer explanation.
+
 =head1 SYNOPSIS
-
-Quick summary of what the module does.
-
-Perhaps a little code snippet.
 
     use {{$name}};
 
     my $foo = {{$name}}->new();
-    ...
+    # ...
 
 =head1 EXPORT
 
