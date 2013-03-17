@@ -7,7 +7,7 @@ use namespace::clean -except => 'meta'
 # ABSTRACT: This does what it does, and it does it well.
 {{ ( $n = $name ) =~ s/::/-/g; ''; }}
 
-use 5.12;
+use 5.012;
 
 =head1 SYNOPSIS
 

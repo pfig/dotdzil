@@ -6,7 +6,7 @@ use {{$name}};
 # ABSTRACT: A beautiful application
 {{ ( $n = $name ) =~ s/::/-/g; ''; }}
 
-use 5.12;
+use 5.012;
 
 use Getopt::Long 2.38;
 use Pod::Usage 1.36;
