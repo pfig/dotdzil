@@ -1,8 +1,8 @@
 #!perl
-
+{{ ( $n = $dist->name ) =~ s/-/::/g; ''; }}
 use Test::More tests => 1;
 
-use {{$name}};
+use {{$n}};
 
-my $o = {{$name}}->new;
-isa_ok( $o, '{{$name}}' );
+my $o = {{$n}}->new;
+isa_ok( $o, '{{$n}}' );
