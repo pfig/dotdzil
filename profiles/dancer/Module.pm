@@ -3,9 +3,7 @@ package {{$name}};
 
 # ABSTRACT: A fabulous web application.
 
-use Dancer ':syntax';
-
-our $VERSION = '0.1';
+use Dancer 1.3116 ':syntax';
 
 get '/' => sub {
   template 'index';

@@ -1,7 +1,7 @@
 package {{$name}};
 
-use Moose 2.0401;
-use MooseX::Types 0.31;
+use Moose 2.0802;
+use MooseX::Types 0.36;
 use MooseX::StrictConstructor 0.19;
 use namespace::clean -except => 'meta';
 

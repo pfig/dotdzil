@@ -8,8 +8,8 @@ use {{$name}};
 
 use 5.012;
 
-use Getopt::Long 2.38;
-use Pod::Usage 1.36;
+use Getopt::Long 2.39;
+use Pod::Usage 1.61;
 
 =head1 SYNOPSIS
 
