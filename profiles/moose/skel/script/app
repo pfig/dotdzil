@@ -1,10 +1,10 @@
+{{ ( $n = $dist->name ) =~ s/-/::/g; ''; }}
 use strict;
 use warnings;
 
-use {{$name}};
+use {{$n}};
 
 # ABSTRACT: A beautiful application
-{{ ( $n = $name ) =~ s/::/-/g; ''; }}
 
 use 5.012;
 
@@ -37,16 +37,17 @@ Pedro Figueiredo, C<< <me at pedrofigueiredo.org> >>
 
 =head1 BUGS
 
-Please report any bugs or feature requests to C<bug-{{ lc $n }} at rt.cpan.org>, or through
-the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue={{$n}}>.  I will be notified, and then you'll
-automatically be notified of progress on your bug as I make changes.
+Please report any bugs or feature requests to C<bug-{{ lc $dist->name }} at rt.cpan.org>,
+or through the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue={{$dist->name}}>.
+I will be notified, and then you'll automatically be notified of progress on your
+bug as I make changes.
 
 
 =head1 SUPPORT
 
 You can find documentation for this module with the perldoc command.
 
-    perldoc {{$name}}
+    perldoc {{$n}}
 
 
 You can also look for information at:
@@ -55,19 +56,19 @@ You can also look for information at:
 
 =item * RT: CPAN's request tracker (report bugs here)
 
-L<http://rt.cpan.org/NoAuth/Bugs.html?Dist={{$n}}>
+L<http://rt.cpan.org/NoAuth/Bugs.html?Dist={{$dist->name}}>
 
 =item * AnnoCPAN: Annotated CPAN documentation
 
-L<http://annocpan.org/dist/{{$n}}>
+L<http://annocpan.org/dist/{{$dist->name}}>
 
 =item * CPAN Ratings
 
-L<http://cpanratings.perl.org/d/{{$n}}>
+L<http://cpanratings.perl.org/d/{{$dist->name}}>
 
 =item * CPAN
 
-L<http://metacpan.org/module/{{$name}}>
+L<http://metacpan.org/module/{{$n}}>
 
 =back
 
