@@ -5,6 +5,7 @@ use Dancer;
 use {{$n}};
 
 # ABSTRACT: the web application driver.
+# PODNAME: app
 
 dance;
 
