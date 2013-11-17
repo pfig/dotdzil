@@ -1,0 +1,90 @@
+{{ ( $n = $dist->name ) =~ s/-/::/g; ''; }}
+use strict;
+use warnings;
+
+use {{$n}};
+
+# ABSTRACT: A beautiful application
+
+use 5.012;
+
+use Getopt::Long 2.39;
+use Pod::Usage 1.61;
+
+=head1 SYNOPSIS
+
+Quick summary of what the app does.
+
+Usage:
+
+    app --help
+
+=head1 DESCRIPTION
+
+A more lengthy description with extra details.
+
+=head1 OPTIONS
+
+=for :list
+* option1
+* option2
+
+
+=head1 AUTHOR
+
+Pedro Figueiredo, C<< <me at pedrofigueiredo.org> >>
+
+
+=head1 BUGS
+
+Please report any bugs or feature requests to C<bug-{{ lc $dist->name }} at rt.cpan.org>,
+or through the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue={{$dist->name}}>.
+I will be notified, and then you'll automatically be notified of progress on your
+bug as I make changes.
+
+
+=head1 SUPPORT
+
+You can find documentation for this module with the perldoc command.
+
+    perldoc {{$n}}
+
+
+You can also look for information at:
+
+=over 4
+
+=item * RT: CPAN's request tracker (report bugs here)
+
+L<http://rt.cpan.org/NoAuth/Bugs.html?Dist={{$dist->name}}>
+
+=item * AnnoCPAN: Annotated CPAN documentation
+
+L<http://annocpan.org/dist/{{$dist->name}}>
+
+=item * CPAN Ratings
+
+L<http://cpanratings.perl.org/d/{{$dist->name}}>
+
+=item * CPAN
+
+L<http://metacpan.org/module/{{$n}}>
+
+=back
+
+
+=head1 ACKNOWLEDGEMENTS
+
+
+=head1 LICENSE AND COPYRIGHT
+
+Copyright 2013 Pedro Figueiredo.
+
+This program is free software; you can redistribute it and/or modify it
+under the terms of either: the GNU General Public License as published
+by the Free Software Foundation; or the Artistic License.
+
+See http://dev.perl.org/licenses/ for more information.
+
+
+=cut
