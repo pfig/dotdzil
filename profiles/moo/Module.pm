@@ -89,8 +89,7 @@ L<http://metacpan.org/module/{{$name}}>
 Copyright 2013 Pedro Figueiredo.
 
 This program is free software; you can redistribute it and/or modify it
-under the terms of either: the GNU General Public License as published
-by the Free Software Foundation; or the Artistic License.
+under the terms of the Artistic License.
 
 See http://dev.perl.org/licenses/ for more information.
 
