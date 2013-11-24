@@ -1,4 +1,6 @@
 {{ ( $n = $dist->name ) =~ s/-/::/g; ''; }}
+#!/usr/bin/env perl
+
 use strict;
 use warnings;
 
