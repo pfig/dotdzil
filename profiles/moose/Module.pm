@@ -66,9 +66,9 @@ You can also look for information at:
 
 =over 4
 
-=item * RT: CPAN's request tracker (report bugs here)
+=item * GitHub issues (report bugs here)
 
-L<http://rt.cpan.org/NoAuth/Bugs.html?Dist={{$n}}>
+L<https://github.com/pfig/{{lc $n}}/issues>
 
 =item * AnnoCPAN: Annotated CPAN documentation
 
