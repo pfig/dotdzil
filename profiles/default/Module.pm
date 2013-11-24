@@ -46,8 +46,8 @@ Pedro Figueiredo, C<< <me at pedrofigueiredo.org> >>
 
 =head1 BUGS
 
-Please report any bugs or feature requests to C<bug-{{ lc $n }} at rt.cpan.org>, or through
-the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue={{$n}}>.  I will be notified, and then you'll
+Please report any bugs or feature requests through the web interface at
+L<https://github.com/pfig/{{lc $n}}/issues>.  I will be notified, and then you'll
 automatically be notified of progress on your bug as I make changes.
 
 
