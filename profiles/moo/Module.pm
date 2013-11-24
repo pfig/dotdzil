@@ -30,7 +30,6 @@ if you don't export anything, such as for a purely object-oriented module.
 =head2 new
 
 Just because you get new for free doesn't mean you don't have to document it :)
-=cut
 
 =head2 function2
 
